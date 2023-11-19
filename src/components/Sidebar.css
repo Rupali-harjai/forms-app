@@ -1,0 +1,44 @@
+.left-side ul li {
+  list-style: none;
+  text-decoration: none;
+  padding: 20px 10px;
+  border: 2px solid #888888;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.left-side p {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+}
+.box-section {
+  background-color: #d8d8d8;
+  width: 70px;
+  height: 70px;
+  border-radius: 4px;
+}
+.content-section {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+.content-section a {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000000;
+}
+.content-section p {
+  font-size: 12px;
+  color: #595959;
+  font-weight: 400;
+}
+
+li.active .content-section a {
+  font-weight: bold;
+  color: #1a8fe6;
+}

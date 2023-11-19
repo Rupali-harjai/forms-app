@@ -1,13 +1,92 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  }
+  /* .form-section {
+    background-color: white;
+   
+} */
+.form-section-heading {
+  background-color: #ddeefb;
+  padding: 20px 30px;
+}
+.main-container{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+  }
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 30%;
+    max-width: 30%;
+    /* justify-content: center; */
+}
+.left-side ul{
+  padding-left: 0px;
+}
+
+.right-side{
+  display: flex;
+    flex-direction: column;
+    flex: 0 0 55%;
+    max-width: 55%;
+    background-color: #f5f5f5;
+    padding: 30px 60px;
+}
+.right-side h6{
+margin: 0px;
+}
+
+.formdata-container {
+  /* width: 60%; */
+  margin: 0 auto;
+  padding: 30px;
+  background-color: white;
+}
+
+.formdata-container form input,
+.formdata-container form textarea,
+.formdata-container form select
+ {
+  border: 1px solid #C3C3C3;
+  border-radius: 4px;
+  padding: 10px;
+  color: #C3C3C3;
+  font-size: 15px;
+  margin: 10px 0 20px 0;
+}
+.word-limit {
+  color: #8A8A8A;
+  text-align: end;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+button{
+  background-color: #1a8fe6;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  border:1px solid #1a8fe6;
+  border-radius: 4px;
+}
+.btns button {
+  margin: 0px 10px;
+}
+.btns{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
 }
